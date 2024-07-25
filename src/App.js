@@ -2,6 +2,7 @@
 
 import './App.css';
 import Cart from './features/cart/Cart';
+import CartPage from './pages/CartPage';
 import Home from './pages/Home';
 import Loginpage from './pages/Loginpage';
 import Signuppage from './pages/Signuppage';
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <Cart></Cart>
+    element: <CartPage></CartPage>
   }
 ]);
 

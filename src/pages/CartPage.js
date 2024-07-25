@@ -1,8 +1,10 @@
-
+import Cart from "../features/cart/Cart";
 
 function CartPage() {
   return (
-    <div></div>
+    <div>
+        <Cart></Cart>
+    </div>
   );
 }
 export default CartPage;
