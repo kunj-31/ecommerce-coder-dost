@@ -1,10 +1,13 @@
 
 
 import './App.css';
-import Cart from './features/cart/Cart';
+
+import ProductDetail from "./features/product -list/components/ProductDetail";
 import CartPage from './pages/CartPage';
+import Checkout from './pages/Checkout';
 import Home from './pages/Home';
 import Loginpage from './pages/Loginpage';
+import ProductDetailPage from './pages/ProductDetailPage';
 import Signuppage from './pages/Signuppage';
 
 import {
@@ -12,6 +15,7 @@ import {
   RouterProvider,
   Route,
   Link,
+  
 } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -31,7 +35,15 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <CartPage></CartPage>
-  }
+  },
+  {
+    path: "/checkout",
+    element: <Checkout></Checkout>
+  },
+  {
+    path: "/product-detail",
+    element: <ProductDetailPage></ProductDetailPage>
+  },
 ]);
 
 

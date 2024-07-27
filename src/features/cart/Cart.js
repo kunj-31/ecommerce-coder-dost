@@ -1,16 +1,7 @@
 import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import {
+import { Link } from'react-router-dom';
 
-  increment,
 
-  incrementAsync,
-
-  selectCount,
-} from './cartSlice';
-import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
-import { XMarkIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom';
 
 const products = [
   {
@@ -37,10 +28,10 @@ const products = [
   // More products...
 ]
 
-export default function Cart() {
+function Cart() {
   // const count = useSelector(selectCount);
-  const dispatch = useDispatch();
-  const [open, setOpen] = useState(true)
+   //const dispatch = useDispatch();
+ // const [open, setOpen] = useState(true)
 
   return (
     <>
@@ -103,32 +94,30 @@ export default function Cart() {
           </div>
           <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
           <div className="mt-6">
-            <a
-              href="#"
+          <Link to="/checkout"
               className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
             >
               Checkout
-            </a>
+            </Link>
           </div>
           <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
             <p>
               or
-              < Link to="/"> 
+              <Link to="/"> 
               <button
                 type="button"
-                onClick={() => setOpen(false)}
                 className="font-medium text-indigo-600 hover:text-indigo-500"
-              >
-                Continue Shopping
-                <span aria-hidden="true"> &rarr;</span>
-              </button>
-              </Link>
-            </p>
+                >
+                  Continue Shopping
+                  <span aria-hidden="true"> →</span>
+                </button>
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </>
-
-
-  );
-}
+      </>
+    );
+  }   
+  export default Cart;      
+           
