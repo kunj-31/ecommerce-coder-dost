@@ -5,6 +5,8 @@ const initialState = {
   products: [],
   status: "idle",
   totalItems: 0,
+  categories: [],
+  brands: [],
 };
 
 export const fetchAllProductsAsync = createAsyncThunk(
@@ -56,5 +58,8 @@ export const { increment } = productSlice.actions;
 
 export const selectAllProducts = (state) => state.product.products;
 export const selectTotalItems = (state) => state.product.totalItems;
+export const selectCategories = (state) => state.product.categories;
+export const selectBrands = (state) => state.product.brands;
+
 
 export default productSlice.reducer;
