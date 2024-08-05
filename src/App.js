@@ -1,6 +1,7 @@
 
 
 import './App.css';
+import Protected from './features/auth/componets/Protected';
 
 import ProductDetail from "./features/product -list/components/ProductDetail";
 import CartPage from './pages/CartPage';
@@ -21,8 +22,9 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (<Home></Home>)
-
+    element: <Protected>
+      <Home></Home>
+    </Protected>,
   },
   {
     path: "/login",
@@ -34,15 +36,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <CartPage></CartPage>
+    element: <Protected><CartPage></CartPage></Protected>,
   },
   {
     path: "/checkout",
-    element: <Checkout></Checkout>
+    element:<Protected> <Checkout></Checkout></Protected>
   },
   {
     path: "/product-detail/:id",
-    element: <ProductDetailPage></ProductDetailPage>
+    element:<Protected> <ProductDetailPage></ProductDetailPage></Protected>
   },
 ]);
 
