@@ -2618,6 +2618,113 @@
       "id": "81e3",
       "email": "test@gmail.com",
       "password": "Qwerty123"
+    },
+    {
+      "id": "64a7",
+      "email": "xyz@gmail.com",
+      "password": "Asdfgh123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "50",
+      "title": "Women Shoes",
+      "description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
+      "price": 36,
+      "discountPercentage": 16.87,
+      "rating": 4.33,
+      "stock": 46,
+      "brand": "Arrivals Genuine",
+      "category": "womens-shoes",
+      "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/50/1.jpeg",
+        "https://i.dummyjson.com/data/products/50/2.jpg",
+        "https://i.dummyjson.com/data/products/50/3.jpg"
+      ],
+      "quantity": 1,
+      "user": "1"
+    },
+    {
+      "id": "95",
+      "title": "Wholesale cargo lashing Belt",
+      "description": "Wholesale cargo lashing Belt Tie Down end Ratchet strap customized strap 25mm motorcycle 1500kgs with rubber handle",
+      "price": 930,
+      "discountPercentage": 17.67,
+      "rating": 4.21,
+      "stock": 144,
+      "brand": "Xiangle",
+      "category": "motorcycle",
+      "thumbnail": "https://i.dummyjson.com/data/products/95/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/95/1.jpg",
+        "https://i.dummyjson.com/data/products/95/2.jpg",
+        "https://i.dummyjson.com/data/products/95/3.jpg",
+        "https://i.dummyjson.com/data/products/95/4.jpg",
+        "https://i.dummyjson.com/data/products/95/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": "1"
+    },
+    {
+      "id": "6",
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1999,
+      "discountPercentage": 11.02,
+      "rating": 0,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/1.png",
+        "https://i.dummyjson.com/data/products/6/2.jpg",
+        "https://i.dummyjson.com/data/products/6/3.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+      ],
+      "quantity": 3,
+      "user": "2"
+    },
+    {
+      "id": "6",
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1999,
+      "discountPercentage": 11.02,
+      "rating": 0,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/1.png",
+        "https://i.dummyjson.com/data/products/6/2.jpg",
+        "https://i.dummyjson.com/data/products/6/3.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+      ],
+      "quantity": 1,
+      "user": "2"
+    },
+    {
+      "id": "77",
+      "title": "Rose Ring",
+      "description": "Brand: The Greetings Flower Colour: RedRing Colour: GoldenSize: Adjustable",
+      "price": 100,
+      "discountPercentage": 3.22,
+      "rating": 4.21,
+      "stock": 149,
+      "brand": "Copenhagen Luxe",
+      "category": "womens-jewellery",
+      "thumbnail": "https://i.dummyjson.com/data/products/77/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/77/1.jpg",
+        "https://i.dummyjson.com/data/products/77/2.jpg",
+        "https://i.dummyjson.com/data/products/77/3.jpg",
+        "https://i.dummyjson.com/data/products/77/thumbnail.jpg"
+      ],
+      "quantity": 2,
+      "user": "1"
     }
   ]
 }

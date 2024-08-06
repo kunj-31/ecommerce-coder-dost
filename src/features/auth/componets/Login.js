@@ -105,7 +105,6 @@ export default function Login() {
               </div>
               {error && (
                   <p className="text-red-500">{error.message}</p>
-
               )}
             </div>
                 
