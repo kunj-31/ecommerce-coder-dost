@@ -11,6 +11,9 @@ import Loginpage from './pages/Loginpage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import Signuppage from './pages/Signuppage';
 import PageNotFound from './pages/404';
+import OrderSuccessPage from './pages/OrderSuccessPage';
+
+import UserOrdersPage from './pages/UserOrdersPage';
 
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -24,8 +27,7 @@ import {
   Link,
   
 } from "react-router-dom";
-import Order from './features/order/Order';
-import OrderSuccessPage from './pages/OrderSuccessPage';
+
 
 const router = createBrowserRouter([
   {
@@ -58,6 +60,12 @@ const router = createBrowserRouter([
     path: '/order-success/:id',
     element: (
       <OrderSuccessPage></OrderSuccessPage>
+    ),
+  },
+  {
+    path: '/orders',
+    element: (
+      <UserOrdersPage></UserOrdersPage>
     ),
   },
   {

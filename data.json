@@ -2463,542 +2463,26 @@
       "id": "64a7",
       "email": "xyz@gmail.com",
       "password": "Asdfgh123",
-      "addresses": []
+      "addresses": [
+        {
+          "name": "XYZ user",
+          "email": "xyz@gmail.com",
+          "phone": "12121245512",
+          "street": "11th main",
+          "city": "mumbai",
+          "state": "maharastah",
+          "pinCode": "45645"
+        }
+      ]
     }
   ],
-  "cart": [
-    {
-      "id": "6",
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1999,
-      "discountPercentage": 11.02,
-      "rating": 0,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-      "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/thumbnail.png"
-      ],
-      "quantity": 3,
-      "user": "2"
-    },
-    {
-      "id": "6",
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1999,
-      "discountPercentage": 11.02,
-      "rating": 0,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-      "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/thumbnail.png"
-      ],
-      "quantity": 1,
-      "user": "2"
-    },
-    {
-      "id": "76d6",
-      "title": "Chappals & Shoe Ladies Metallic",
-      "description": "Womens Chappals & Shoe Ladies Metallic Tong Thong Sandal Flat Summer 2020 Maasai Sandals",
-      "price": 23,
-      "discountPercentage": 2.62,
-      "rating": 4.72,
-      "stock": 107,
-      "brand": "Maasai Sandals",
-      "category": "womens-shoes",
-      "thumbnail": "https://i.dummyjson.com/data/products/49/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/49/1.jpg",
-        "https://i.dummyjson.com/data/products/49/2.jpg",
-        "https://i.dummyjson.com/data/products/49/3.webp",
-        "https://i.dummyjson.com/data/products/49/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": "64a7"
-    },
-    {
-      "id": "050d",
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-      ],
-      "quantity": 3,
-      "user": "1"
-    }
-  ],
+  "cart": [],
   "orders": [
     {
-      "id": "9dfb",
+      "id": "7",
       "items": [
         {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card"
-    },
-    {
-      "id": "3128",
-      "items": [
-        {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card"
-    },
-    {
-      "id": "ae70",
-      "items": [
-        {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card"
-    },
-    {
-      "id": "b136",
-      "items": [
-        {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card"
-    },
-    {
-      "id": "10eb",
-      "items": [
-        {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "cash",
-      "status": "pending"
-    },
-    {
-      "id": "db8a",
-      "items": [
-        {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "cash",
-      "status": "pending"
-    },
-    {
-      "id": "bbdd",
-      "items": [
-        {
-          "id": "2b65",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "cash",
-      "status": "pending"
-    },
-    {
-      "id": "1828",
-      "items": [
-        {
-          "id": "050d",
+          "id": "0897",
           "title": "Microsoft Surface Laptop 4",
           "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
           "price": 1499,
@@ -3015,12 +2499,12 @@
             "https://i.dummyjson.com/data/products/8/4.jpg",
             "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
           ],
-          "quantity": 3,
+          "quantity": 1,
           "user": "1"
         }
       ],
-      "totalAmout": 4497,
-      "totalItems": 3,
+      "totalAmout": 1499,
+      "totalItems": 1,
       "user": {
         "id": "1",
         "email": "test@gmail.com",
@@ -3059,32 +2543,32 @@
       "status": "pending"
     },
     {
-      "id": "6550",
+      "id": "12",
       "items": [
         {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "id": "cd8a",
+          "title": "3 Tier Corner Shelves",
+          "description": "3 Tier Corner Shelves | 3 PCs Wall Mount Kitchen Shelf | Floating Bedroom Shelf",
+          "price": 700,
+          "discountPercentage": 17,
+          "rating": 4.31,
+          "stock": 106,
+          "brand": "Kitchen Shelf",
+          "category": "furniture",
+          "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/33/1.jpg",
+            "https://i.dummyjson.com/data/products/33/2.jpg",
+            "https://i.dummyjson.com/data/products/33/3.jpg",
+            "https://i.dummyjson.com/data/products/33/4.jpg",
+            "https://i.dummyjson.com/data/products/33/thumbnail.jpg"
           ],
-          "quantity": 3,
+          "quantity": 1,
           "user": "1"
         }
       ],
-      "totalAmout": 4497,
-      "totalItems": 3,
+      "totalAmout": 700,
+      "totalItems": 1,
       "user": {
         "id": "1",
         "email": "test@gmail.com",
@@ -3123,32 +2607,30 @@
       "status": "pending"
     },
     {
-      "id": "b771",
+      "id": "be50",
       "items": [
         {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "id": "dbcf",
+          "title": "Stainless Steel Women",
+          "description": "Fashion Skmei 1830 Shell Dial Stainless Steel Women Wrist Watch Lady Bracelet Watch Quartz Watches Ladies",
+          "price": 35,
+          "discountPercentage": 8.98,
+          "rating": 4.08,
+          "stock": 111,
+          "brand": "Bracelet",
+          "category": "womens-watches",
+          "thumbnail": "https://i.dummyjson.com/data/products/70/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/70/1.jpg",
+            "https://i.dummyjson.com/data/products/70/2.jpg",
+            "https://i.dummyjson.com/data/products/70/thumbnail.jpg"
           ],
-          "quantity": 3,
+          "quantity": 1,
           "user": "1"
         }
       ],
-      "totalAmout": 4497,
-      "totalItems": 3,
+      "totalAmout": 35,
+      "totalItems": 1,
       "user": {
         "id": "1",
         "email": "test@gmail.com",
@@ -3187,288 +2669,32 @@
       "status": "pending"
     },
     {
-      "id": "a2de",
+      "id": "af38",
       "items": [
         {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
+          "id": "0b66",
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
           "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
           ],
-          "quantity": 3,
+          "quantity": 1,
           "user": "1"
         }
       ],
-      "totalAmout": 4497,
-      "totalItems": 3,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card",
-      "status": "pending"
-    },
-    {
-      "id": "25cc",
-      "items": [
-        {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-          ],
-          "quantity": 3,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 4497,
-      "totalItems": 3,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card",
-      "status": "pending"
-    },
-    {
-      "id": "aedb",
-      "items": [
-        {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-          ],
-          "quantity": 3,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 4497,
-      "totalItems": 3,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card",
-      "status": "pending"
-    },
-    {
-      "id": "669c",
-      "items": [
-        {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-          ],
-          "quantity": 3,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 4497,
-      "totalItems": 3,
-      "user": {
-        "id": "1",
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
-        "addresses": [
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          },
-          {
-            "name": "Kunj desai",
-            "email": "test@gmail.com",
-            "phone": "09856151121",
-            "street": "11th main",
-            "city": "Ahemdabad",
-            "state": "gujrat",
-            "pinCode": "121214"
-          }
-        ]
-      },
-      "selectedaddress": {
-        "name": "Kunj desai",
-        "email": "test@gmail.com",
-        "phone": "09856151121",
-        "street": "11th main",
-        "city": "Ahemdabad",
-        "state": "gujrat",
-        "pinCode": "121214"
-      },
-      "paymentMethod": "card",
-      "status": "pending"
-    },
-    {
-      "id": "c8e3",
-      "items": [
-        {
-          "id": "050d",
-          "title": "Microsoft Surface Laptop 4",
-          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-          "price": 1499,
-          "discountPercentage": 10.23,
-          "rating": 4.43,
-          "stock": 68,
-          "brand": "Microsoft Surface",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/8/1.jpg",
-            "https://i.dummyjson.com/data/products/8/2.jpg",
-            "https://i.dummyjson.com/data/products/8/3.jpg",
-            "https://i.dummyjson.com/data/products/8/4.jpg",
-            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-          ],
-          "quantity": 3,
-          "user": "1"
-        }
-      ],
-      "totalAmout": 4497,
-      "totalItems": 3,
+      "totalAmout": 1099,
+      "totalItems": 1,
       "user": {
         "id": "1",
         "email": "test@gmail.com",
