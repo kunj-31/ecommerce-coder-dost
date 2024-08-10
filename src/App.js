@@ -12,6 +12,7 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import Signuppage from './pages/Signuppage';
 import PageNotFound from './pages/404';
 import OrderSuccessPage from './pages/OrderSuccessPage';
+import Logout from './features/auth/componets/Logout';
 
 import UserOrdersPage from './pages/UserOrdersPage';
 import UserProfilePage from './pages/UserProfilepage';
@@ -22,6 +23,7 @@ import { selectLoggedInUser } from './features/auth/authSlice';
 import { fetchItemsByUserIdAsync } from './features/cart/cartSlice';
 import { fetchLoggedInUserAsync } from './features/User/userSlice';
 
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -29,6 +31,7 @@ import {
   Link,
   
 } from "react-router-dom";
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 
 const router = createBrowserRouter([
   {
@@ -76,6 +79,14 @@ const router = createBrowserRouter([
 
     ),
   },
+  {
+    path: '/logout',
+    element: <Logout></Logout>,
+    },
+    {
+      path: '/forgot-password',
+      element: <ForgotPasswordPage></ForgotPasswordPage>
+      },
   {
     path: '*',
     element:(
