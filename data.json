@@ -2449,13 +2449,13 @@
           "pinCode": "121214"
         },
         {
-          "name": "Kunj desai",
-          "email": "test@gmail.com",
-          "phone": "09856151121",
-          "street": "11th main",
-          "city": "Ahemdabad",
-          "state": "gujrat",
-          "pinCode": "121214"
+          "name": "Ved desai",
+          "email": "xyz@gmail.com",
+          "city": "Banglore",
+          "state": "karantaka",
+          "pinCode": "16544",
+          "phone": "12121541",
+          "street": "12th main"
         }
       ]
     },
@@ -2476,7 +2476,29 @@
       ]
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "516c",
+      "title": "printed high quality T shirts",
+      "description": "Brand: vintage Apparel ,Export quality",
+      "price": 35,
+      "discountPercentage": 7.54,
+      "rating": 4.89,
+      "stock": 6,
+      "brand": "Vintage Apparel",
+      "category": "mens-shirts",
+      "thumbnail": "https://i.dummyjson.com/data/products/53/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/53/1.webp",
+        "https://i.dummyjson.com/data/products/53/2.jpg",
+        "https://i.dummyjson.com/data/products/53/3.jpg",
+        "https://i.dummyjson.com/data/products/53/4.jpg",
+        "https://i.dummyjson.com/data/products/53/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": "1"
+    }
+  ],
   "orders": [
     {
       "id": "7",
@@ -2725,6 +2747,306 @@
         "email": "test@gmail.com",
         "phone": "09856151121",
         "street": "11th main",
+        "city": "Ahemdabad",
+        "state": "gujrat",
+        "pinCode": "121214"
+      },
+      "paymentMethod": "card",
+      "status": "pending"
+    },
+    {
+      "id": "0f13",
+      "items": [
+        {
+          "id": "5e4e",
+          "title": "Qualcomm original Car Charger",
+          "description": "best Quality CHarger , Highly Recommended to all best Quality CHarger , Highly Recommended to all",
+          "price": 40,
+          "discountPercentage": 17.53,
+          "rating": 4.2,
+          "stock": 79,
+          "brand": "TC Reusable",
+          "category": "automotive",
+          "thumbnail": "https://i.dummyjson.com/data/products/89/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/89/1.jpg",
+            "https://i.dummyjson.com/data/products/89/2.jpg",
+            "https://i.dummyjson.com/data/products/89/3.jpg",
+            "https://i.dummyjson.com/data/products/89/4.jpg",
+            "https://i.dummyjson.com/data/products/89/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmout": 40,
+      "totalItems": 1,
+      "user": {
+        "id": "1",
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "09856151121",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          },
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "09856151121",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          }
+        ]
+      },
+      "selectedaddress": {
+        "name": "Kunj desai",
+        "email": "test@gmail.com",
+        "phone": "09856151121",
+        "street": "11th main",
+        "city": "Ahemdabad",
+        "state": "gujrat",
+        "pinCode": "121214"
+      },
+      "paymentMethod": "card",
+      "status": "pending"
+    },
+    {
+      "id": "35f3",
+      "items": [
+        {
+          "id": "05a5",
+          "title": "FREE FIRE T Shirt",
+          "description": "quality and professional print - It doesn't just look high quality, it is high quality.",
+          "price": 10,
+          "discountPercentage": 14.72,
+          "rating": 4.52,
+          "stock": 128,
+          "brand": "FREE FIRE",
+          "category": "mens-shirts",
+          "thumbnail": "https://i.dummyjson.com/data/products/52/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/52/1.png",
+            "https://i.dummyjson.com/data/products/52/2.png",
+            "https://i.dummyjson.com/data/products/52/3.jpg",
+            "https://i.dummyjson.com/data/products/52/4.jpg",
+            "https://i.dummyjson.com/data/products/52/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmout": 10,
+      "totalItems": 1,
+      "user": {
+        "id": "1",
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "09856151121",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          }
+        ]
+      },
+      "selectedaddress": {
+        "name": "Kunj desai",
+        "email": "test@gmail.com",
+        "phone": "09856151121",
+        "street": "11th main",
+        "city": "Ahemdabad",
+        "state": "gujrat",
+        "pinCode": "121214"
+      },
+      "paymentMethod": "card",
+      "status": "pending"
+    },
+    {
+      "id": "2505",
+      "items": [
+        {
+          "id": "067b",
+          "title": "frock gold printed",
+          "description": "Ghazi fabric long frock gold printed ready to wear stitched collection (G992)",
+          "price": 600,
+          "discountPercentage": 15.55,
+          "rating": 4.31,
+          "stock": 150,
+          "brand": "Ghazi Fabric",
+          "category": "womens-dresses",
+          "thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/43/1.jpg",
+            "https://i.dummyjson.com/data/products/43/2.jpg",
+            "https://i.dummyjson.com/data/products/43/3.jpg",
+            "https://i.dummyjson.com/data/products/43/4.jpg",
+            "https://i.dummyjson.com/data/products/43/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmout": 600,
+      "totalItems": 1,
+      "user": {
+        "id": "1",
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "09856151121",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          }
+        ]
+      },
+      "selectedaddress": {
+        "name": "Kunj desai",
+        "email": "test@gmail.com",
+        "phone": "09856151121",
+        "street": "11th main",
+        "city": "Ahemdabad",
+        "state": "gujrat",
+        "pinCode": "121214"
+      },
+      "paymentMethod": "card",
+      "status": "pending"
+    },
+    {
+      "id": "3aaa",
+      "items": [
+        {
+          "id": "b81c",
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmout": 1499,
+      "totalItems": 1,
+      "user": {
+        "id": "1",
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "09856151121",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          },
+          {
+            "name": "kunj desai",
+            "email": "test@gmail.com",
+            "phone": "1212121211",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "ahemdabad",
+            "pinCode": "12312"
+          }
+        ]
+      },
+      "selectedaddress": {
+        "name": "kunj desai",
+        "email": "test@gmail.com",
+        "phone": "1212121211",
+        "street": "11th main",
+        "city": "Ahemdabad",
+        "state": "ahemdabad",
+        "pinCode": "12312"
+      },
+      "paymentMethod": "card",
+      "status": "pending"
+    },
+    {
+      "id": "be9b",
+      "items": [
+        {
+          "id": "6da4",
+          "title": "Fancy hand clutch",
+          "description": "This fashion is designed to add a charming effect to your casual outfit. This Bag is made of synthetic leather.",
+          "price": 44,
+          "discountPercentage": 10.39,
+          "rating": 4.18,
+          "stock": 101,
+          "brand": "Bracelet",
+          "category": "womens-bags",
+          "thumbnail": "https://i.dummyjson.com/data/products/73/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/73/1.jpg",
+            "https://i.dummyjson.com/data/products/73/2.webp",
+            "https://i.dummyjson.com/data/products/73/3.jpg",
+            "https://i.dummyjson.com/data/products/73/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmout": 44,
+      "totalItems": 1,
+      "user": {
+        "id": "1",
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "09856151121",
+            "street": "11th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          },
+          {
+            "name": "Kunj desai",
+            "email": "test@gmail.com",
+            "phone": "121351121",
+            "street": "10th main",
+            "city": "Ahemdabad",
+            "state": "gujrat",
+            "pinCode": "121214"
+          }
+        ]
+      },
+      "selectedaddress": {
+        "name": "Kunj desai",
+        "email": "test@gmail.com",
+        "phone": "121351121",
+        "street": "10th main",
         "city": "Ahemdabad",
         "state": "gujrat",
         "pinCode": "121214"

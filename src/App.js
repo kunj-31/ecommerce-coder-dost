@@ -14,11 +14,13 @@ import PageNotFound from './pages/404';
 import OrderSuccessPage from './pages/OrderSuccessPage';
 
 import UserOrdersPage from './pages/UserOrdersPage';
+import UserProfilePage from './pages/UserProfilepage';
 
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectLoggedInUser } from './features/auth/authSlice';
 import { fetchItemsByUserIdAsync } from './features/cart/cartSlice';
+import { fetchLoggedInUserAsync } from './features/User/userSlice';
 
 import {
   createBrowserRouter,
@@ -27,7 +29,6 @@ import {
   Link,
   
 } from "react-router-dom";
-
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,13 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: '/profile',
+    element: (
+       <UserProfilePage> </UserProfilePage>
+
+    ),
+  },
+  {
     path: '*',
     element:(
     <PageNotFound></PageNotFound>
@@ -87,6 +95,7 @@ const dispatch =useDispatch();
   useEffect(()=>{
     if(user){
     dispatch(fetchItemsByUserIdAsync(user.id))
+    dispatch(fetchLoggedInUserAsync(user.id))
     }
   },[dispatch,user])
 
