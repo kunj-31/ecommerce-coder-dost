@@ -4,6 +4,7 @@ import { selectLoggedInUser, createUserAsync } from "../authSlice";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { Navigate } from "react-router-dom";
+import { RocketLaunchIcon } from "@heroicons/react/24/outline";
 
 export default function Signup() {
   const dispatch = useDispatch();
@@ -39,6 +40,7 @@ export default function Signup() {
                   email: data.email,
                   password: data.password,
                   addresses: [],
+                  role:'user'
                 })
               );
               console.log(data);
